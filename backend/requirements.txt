@@ -1,0 +1,5 @@
+# Python dependencies for your backend
+Django>=3.2
+Flask>=2.0
+tensorflow
+torch
