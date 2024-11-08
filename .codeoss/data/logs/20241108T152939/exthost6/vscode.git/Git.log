@@ -1,0 +1,20 @@
+2024-11-08 16:07:38.351 [info] Log level: Info
+2024-11-08 16:07:38.351 [info] Validating found git in: "git"
+2024-11-08 16:07:38.351 [info] Using git "2.43.0" from "git"
+2024-11-08 16:07:38.351 [info] > git rev-parse --show-toplevel [4ms]
+2024-11-08 16:07:38.351 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-11-08 16:07:38.352 [info] Open repository: /home/itsupport/allyelvis-manager
+2024-11-08 16:07:38.352 [info] > git config --get commit.template [9ms]
+2024-11-08 16:07:38.352 [info] > git rev-parse --show-toplevel [18ms]
+2024-11-08 16:07:38.352 [info] > git rev-parse --show-toplevel [30ms]
+2024-11-08 16:07:38.352 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [42ms]
+2024-11-08 16:07:38.352 [info] > git status -z -uall [5ms]
+2024-11-08 16:07:38.352 [info] > git merge-base refs/heads/main refs/remotes/origin/main [18ms]
+2024-11-08 16:07:38.352 [info] > git config --get commit.template [12ms]
+2024-11-08 16:07:38.352 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [6ms]
+2024-11-08 16:07:38.352 [info] > git diff --name-status -z --diff-filter=ADMR 2ffe967397717950e50586dc316640619aba6fa7...refs/remotes/origin/main [14ms]
+2024-11-08 16:07:38.352 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-11-08 16:07:38.364 [info] > git status -z -uall [2ms]
+2024-11-08 16:07:42.028 [info] > git check-ignore -v -z --stdin [4ms]
+2024-11-08 16:16:29.703 [info] > git merge-base refs/heads/main refs/remotes/origin/main [5ms]
+2024-11-08 16:16:29.729 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [3ms]

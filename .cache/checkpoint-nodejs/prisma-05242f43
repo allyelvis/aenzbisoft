@@ -1,0 +1,30 @@
+{
+  "last_reminder": 0,
+  "cached_at": 1731084973073,
+  "version": "5.21.1",
+  "cli_path": "/home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/aenzbi-business-suite/aenzbi-conservation-environmental-system/aenzbi-digital-baking/aenzbi-ecommerce/aenzbi-erp-ecommerce/aenzbi-extension/aenzbi-fintech/aenzbi-fintech-system/aenzbi-firebase/aenzbi-flask-ecom/aenzbi-global-pos/aenzbi-grocery/aenzbi-health-education-system/aenzbi-ide/node_modules/prisma/build/index.js",
+  "output": {
+    "product": "prisma",
+    "previous_version": "5.21.1",
+    "checkpoint_version": 4,
+    "local_timestamp_without_timezone": "2024-11-08T16:56:12Z",
+    "current_version": "5.22.0",
+    "current_release_date": 1730820845,
+    "client_event_id": "d969c45a-193b-4cb6-9d99-97cae70d95fc",
+    "current_download_url": "https://github.com/prisma/prisma",
+    "package": "prisma",
+    "release_tag": "latest",
+    "install_command": "npm install --save-dev prisma",
+    "schema_providers": [
+      "sqlite"
+    ],
+    "schema_preview_features": [],
+    "schema_generators_providers": [
+      "prisma-client-js"
+    ],
+    "current_changelog_url": "https://github.com/prisma/prisma",
+    "outdated": true,
+    "project_website": "https://prisma.io",
+    "alerts": []
+  }
+}

@@ -1,0 +1,20 @@
+2024-11-08 15:49:23.385 [info] Extension host with pid 1719 started
+2024-11-08 15:49:23.385 [error] Error: EEXIST: file already exists, open '/home/itsupport/.codeoss/data/User/workspaceStorage/-61ba053d/vscode.lock'
+2024-11-08 15:49:23.394 [info] Lock '/home/itsupport/.codeoss/data/User/workspaceStorage/-61ba053d/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-11-08 15:49:23.399 [info] Lock '/home/itsupport/.codeoss/data/User/workspaceStorage/-61ba053d/vscode.lock': The lock does not look stale, elapsed: 375 ms, giving up.
+2024-11-08 15:49:23.414 [info] Lock '/home/itsupport/.codeoss/data/User/workspaceStorage/-61ba053d-1/vscode.lock': Lock acquired.
+2024-11-08 15:49:26.895 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-11-08 15:49:33.901 [info] Not activating extension 'hashicorp.terraform': Timed out while searching for 'workspaceContains' pattern **/*.tf,**/*.tfvars
+2024-11-08 15:49:33.902 [info] Not activating extension 'redhat.fabric8-analytics': Timed out while searching for 'workspaceContains' pattern **/package.json,**/pom.xml,**/go.mod,**/requirements.txt
+2024-11-08 15:49:33.902 [info] Not activating extension 'redhat.java': Timed out while searching for 'workspaceContains' pattern */pom.xml,*/build.gradle,*/settings.gradle,*/build.gradle.kts,*/settings.gradle.kts,*/.classpath
+2024-11-08 15:49:33.902 [info] Not activating extension 'vscjava.vscode-java-dependency': Timed out while searching for 'workspaceContains' pattern */pom.xml,*/build.gradle,*/settings.gradle,*/build.gradle.kts,*/settings.gradle.kts,*/.classpath
+2024-11-08 15:49:33.903 [info] Not activating extension 'vscjava.vscode-java-test': Timed out while searching for 'workspaceContains' pattern */pom.xml,*/build.gradle,*/settings.gradle,*/build.gradle.kts,*/settings.gradle.kts,*/.classpath
+2024-11-08 15:49:33.903 [info] Not activating extension 'vscjava.vscode-maven': Timed out while searching for 'workspaceContains' pattern **/pom.xml
+2024-11-08 15:49:36.914 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2024-11-08 15:49:36.915 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onStartupFinished'
+2024-11-08 15:49:36.915 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2024-11-08 15:49:36.916 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-11-08 15:49:36.917 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-11-08 15:54:59.853 [info] Extension host terminating: renderer disconnected for too long (2)
+2024-11-08 15:54:59.855 [info] Lock '/home/itsupport/.codeoss/data/User/workspaceStorage/-61ba053d-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-11-08 15:54:59.857 [info] Extension host with pid 1719 exiting with code 0

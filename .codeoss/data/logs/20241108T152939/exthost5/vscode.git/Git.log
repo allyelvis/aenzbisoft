@@ -1,0 +1,75 @@
+2024-11-08 15:50:13.041 [info] Log level: Info
+2024-11-08 15:50:13.041 [info] Validating found git in: "git"
+2024-11-08 15:50:13.041 [info] Using git "2.43.0" from "git"
+2024-11-08 15:50:13.041 [info] > git rev-parse --show-toplevel [32ms]
+2024-11-08 15:50:13.041 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-11-08 15:50:13.041 [info] Open repository: /home/itsupport/allyelvis-manager
+2024-11-08 15:50:13.041 [info] > git config --get commit.template [9ms]
+2024-11-08 15:50:13.041 [info] > git rev-parse --show-toplevel [5ms]
+2024-11-08 15:50:13.041 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-11-08 15:50:13.041 [info] > git rev-parse --show-toplevel [3ms]
+2024-11-08 15:50:13.041 [warning] ENOENT: no such file or directory, open '/home/itsupport/allyelvis-manager/.git/refs/remotes/origin/main'
+2024-11-08 15:50:13.041 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-11-08 15:50:13.041 [info] fatal: ambiguous argument 'refs/remotes/origin/main': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+2024-11-08 15:50:13.041 [info] > git status -z -uall [4ms]
+2024-11-08 15:50:13.041 [info] > git merge-base refs/heads/main refs/remotes/origin/main [20ms]
+2024-11-08 15:50:13.041 [info] fatal: Not a valid object name refs/remotes/origin/main
+2024-11-08 15:50:13.041 [info] GitHistoryProvider:resolveHistoryItemGroupCommonAncestor - Failed to resolve common ancestor for 'refs/heads/main' and 'refs/remotes/origin/main'
+2024-11-08 15:50:13.041 [info] > git config --get commit.template [7ms]
+2024-11-08 15:50:13.041 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-11-08 15:50:13.041 [warning] ENOENT: no such file or directory, open '/home/itsupport/allyelvis-manager/.git/refs/remotes/origin/main'
+2024-11-08 15:50:13.043 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-11-08 15:50:13.043 [info] fatal: ambiguous argument 'refs/remotes/origin/main': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+2024-11-08 15:50:13.052 [info] > git status -z -uall [3ms]
+2024-11-08 15:50:28.514 [info] > git check-ignore -v -z --stdin [5ms]
+2024-11-08 15:50:41.251 [info] > git merge-base refs/heads/main refs/remotes/origin/main [4ms]
+2024-11-08 15:50:41.251 [info] fatal: Not a valid object name refs/remotes/origin/main
+2024-11-08 15:50:41.252 [info] GitHistoryProvider:resolveHistoryItemGroupCommonAncestor - Failed to resolve common ancestor for 'refs/heads/main' and 'refs/remotes/origin/main'
+2024-11-08 15:50:42.542 [info] > git merge-base refs/heads/main refs/remotes/origin/main [30ms]
+2024-11-08 15:50:42.542 [info] fatal: Not a valid object name refs/remotes/origin/main
+2024-11-08 15:50:42.542 [info] GitHistoryProvider:resolveHistoryItemGroupCommonAncestor - Failed to resolve common ancestor for 'refs/heads/main' and 'refs/remotes/origin/main'
+2024-11-08 15:50:43.031 [info] > git check-ignore -v -z --stdin [2ms]
+2024-11-08 15:50:53.127 [info] > git add -A -- . [5ms]
+2024-11-08 15:50:53.150 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [9ms]
+2024-11-08 15:50:53.166 [info] > git config --get commit.template [4ms]
+2024-11-08 15:50:53.200 [info] > git config --get commit.template [15ms]
+2024-11-08 15:50:53.201 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-11-08 15:50:53.215 [warning] ENOENT: no such file or directory, open '/home/itsupport/allyelvis-manager/.git/refs/remotes/origin/main'
+2024-11-08 15:50:53.217 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-11-08 15:50:53.217 [info] fatal: ambiguous argument 'refs/remotes/origin/main': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+2024-11-08 15:50:53.232 [info] > git status -z -uall [2ms]
+2024-11-08 15:50:53.261 [info] > git merge-base refs/heads/main refs/remotes/origin/main [14ms]
+2024-11-08 15:50:53.261 [info] fatal: Not a valid object name refs/remotes/origin/main
+2024-11-08 15:50:53.261 [info] GitHistoryProvider:resolveHistoryItemGroupCommonAncestor - Failed to resolve common ancestor for 'refs/heads/main' and 'refs/remotes/origin/main'
+2024-11-08 15:50:53.469 [info] > git merge-base refs/heads/main refs/remotes/origin/main [5ms]
+2024-11-08 15:50:53.469 [info] fatal: Not a valid object name refs/remotes/origin/main
+2024-11-08 15:50:53.470 [info] GitHistoryProvider:resolveHistoryItemGroupCommonAncestor - Failed to resolve common ancestor for 'refs/heads/main' and 'refs/remotes/origin/main'
+2024-11-08 15:50:53.739 [info] > git config --get commit.template [14ms]
+2024-11-08 15:50:53.740 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-11-08 15:50:53.753 [warning] ENOENT: no such file or directory, open '/home/itsupport/allyelvis-manager/.git/refs/remotes/origin/main'
+2024-11-08 15:50:53.755 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-11-08 15:50:53.755 [info] fatal: ambiguous argument 'refs/remotes/origin/main': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+2024-11-08 15:50:53.770 [info] > git status -z -uall [3ms]
+2024-11-08 15:50:53.802 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms]
+2024-11-08 15:50:53.802 [info] fatal: Not a valid object name refs/remotes/origin/main
+2024-11-08 15:50:53.802 [info] GitHistoryProvider:resolveHistoryItemGroupCommonAncestor - Failed to resolve common ancestor for 'refs/heads/main' and 'refs/remotes/origin/main'
+2024-11-08 15:50:54.076 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms]
+2024-11-08 15:50:54.076 [info] fatal: Not a valid object name refs/remotes/origin/main
+2024-11-08 15:50:54.077 [info] GitHistoryProvider:resolveHistoryItemGroupCommonAncestor - Failed to resolve common ancestor for 'refs/heads/main' and 'refs/remotes/origin/main'
+2024-11-08 15:51:14.555 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms]
+2024-11-08 15:51:14.555 [info] fatal: Not a valid object name refs/remotes/origin/main
+2024-11-08 15:51:14.556 [info] GitHistoryProvider:resolveHistoryItemGroupCommonAncestor - Failed to resolve common ancestor for 'refs/heads/main' and 'refs/remotes/origin/main'
+2024-11-08 15:51:58.645 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms]
+2024-11-08 15:51:58.645 [info] fatal: Not a valid object name refs/remotes/origin/main
+2024-11-08 15:51:58.645 [info] GitHistoryProvider:resolveHistoryItemGroupCommonAncestor - Failed to resolve common ancestor for 'refs/heads/main' and 'refs/remotes/origin/main'
+2024-11-08 15:51:58.972 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms]
+2024-11-08 15:51:58.972 [info] fatal: Not a valid object name refs/remotes/origin/main
+2024-11-08 15:51:58.973 [info] GitHistoryProvider:resolveHistoryItemGroupCommonAncestor - Failed to resolve common ancestor for 'refs/heads/main' and 'refs/remotes/origin/main'

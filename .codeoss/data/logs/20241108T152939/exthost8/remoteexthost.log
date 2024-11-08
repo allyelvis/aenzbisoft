@@ -1,0 +1,39 @@
+2024-11-08 16:23:27.178 [info] Extension host with pid 10329 started
+2024-11-08 16:23:27.191 [info] Lock '/home/itsupport/.codeoss/data/User/workspaceStorage/1642d4d4/vscode.lock': Lock acquired.
+2024-11-08 16:23:27.587 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-11-08 16:23:27.600 [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:requirements.txt'
+2024-11-08 16:23:27.983 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-11-08 16:23:28.026 [info] ExtensionService#_doActivateExtension redhat.java, startup: true, activationEvent: 'workspaceContains:pom.xml'
+2024-11-08 16:23:28.405 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-dependency, startup: true, activationEvent: 'workspaceContains:pom.xml'
+2024-11-08 16:23:28.741 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug, startup: true, activationEvent: 'workspaceContains:pom.xml', root cause: vscjava.vscode-java-test
+2024-11-08 16:23:28.900 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-11-08 16:23:28.900 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-11-08 16:23:30.592 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-11-08 16:23:31.193 [warning] [Decorations] CAPPING events from decorations provider vscode.git 7452
+2024-11-08 16:23:33.853 [info] ExtensionService#_doActivateExtension redhat.fabric8-analytics, startup: true, activationEvent: 'workspaceContains:**/package.json,**/pom.xml,**/go.mod,**/requirements.txt'
+2024-11-08 16:23:33.854 [info] ExtensionService#_doActivateExtension vscjava.vscode-maven, startup: true, activationEvent: 'workspaceContains:**/pom.xml'
+2024-11-08 16:23:35.023 [info] Not activating extension 'hashicorp.terraform': Timed out while searching for 'workspaceContains' pattern **/*.tf,**/*.tfvars
+2024-11-08 16:23:37.624 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2024-11-08 16:23:37.625 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onStartupFinished'
+2024-11-08 16:23:37.626 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2024-11-08 16:23:37.626 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-11-08 16:23:37.627 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-11-08 16:23:43.262 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-11-08 16:23:43.266 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-11-08 16:23:43.266 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-11-08 16:23:48.906 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2024-11-08 16:23:49.204 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-test, startup: true, activationEvent: 'workspaceContains:pom.xml'
+2024-11-08 16:23:54.148 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2024-11-08 16:24:00.960 [warning] [Decorations] CAPPING events from decorations provider vscode.git 7452
+2024-11-08 16:24:32.704 [info] Eager extensions activated
+2024-11-08 16:24:52.699 [warning] [Decorations] CAPPING events from decorations provider vscode.git 7452
+2024-11-08 16:57:13.733 [error] Error: ENOENT: no such file or directory, lstat '/home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/aenzbi-business-suite/aenzbi-conservation-environmental-system/aenzbi-digital-baking/aenzbi-ecommerce/aenzbi-erp-ecommerce/aenzbi-extension/aenzbi-fintech/aenzbi-fintech-system/aenzbi-firebase/aenzbi-flask-ecom/aenzbi-global-pos/aenzbi-grocery/aenzbi-health-education-system/aenzbi-ide/aenzbi-inventory-system/aenzbi-invoice-extension/aenzbi-maven/aenzbi-new-system/aenzbi-odoo/aenzbi-odoo-setup/aenzbi-record/aenzbi-renewable-energy-platform/aenzbi-restaurant-ecommerce/AENZBi-restaurant-pos/aenzbi-restaurant-pos-backend/aenzbi-resto-app/aenzbi-retail-1/aenzbi-storeb/aenzbi-suite/aenzbi-suite-functions/.git/index.lock'
+2024-11-08 17:04:10.197 [warning] [Decorations] CAPPING events from decorations provider vscode.git 7452
+2024-11-08 17:04:18.314 [warning] [Decorations] CAPPING events from decorations provider vscode.git 7452
+2024-11-08 17:04:46.550 [warning] [Decorations] CAPPING events from decorations provider vscode.git 7452
+2024-11-08 17:05:50.937 [error] Error: ENOENT: no such file or directory, lstat '/home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/.git/index.lock'
+2024-11-08 17:05:50.937 [error] Error: ENOENT: no such file or directory, lstat '/home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/.git/index.lock'
+2024-11-08 17:05:50.939 [error] Error: ENOENT: no such file or directory, lstat '/home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/.git/index.lock'
+2024-11-08 17:05:50.939 [error] Error: ENOENT: no such file or directory, lstat '/home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/.git/index.lock'
+2024-11-08 17:05:50.940 [error] Error: ENOENT: no such file or directory, lstat '/home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/.git/index.lock'
+2024-11-08 17:05:50.942 [error] Error: ENOENT: no such file or directory, lstat '/home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/.git/index.lock'

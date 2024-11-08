@@ -1,0 +1,82 @@
+2024-11-08 15:29:39.353 [info] 
+
+
+
+
+2024-11-08 15:29:39.353 [info] Extension host agent started.
+2024-11-08 15:29:39.355 [info] Started initializing default profile extensions in extensions installation folder. file:///home/itsupport/.codeoss/extensions
+2024-11-08 15:29:39.374 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/itsupport/.codeoss/extensions
+2024-11-08 15:29:53.946 [info] [127.0.0.1][b3db2ac4][ManagementConnection] New connection established.
+2024-11-08 15:29:53.948 [info] [127.0.0.1][859cedd6][ExtensionHostConnection] New connection established.
+2024-11-08 15:29:56.568 [info] [127.0.0.1][859cedd6][ExtensionHostConnection] <823> Launched Extension Host Process.
+2024-11-08 15:40:52.269 [info] [127.0.0.1][08e3a755][ExtensionHostConnection] New connection established.
+2024-11-08 15:40:52.278 [info] [127.0.0.1][08e3a755][ExtensionHostConnection] <1402> Launched Extension Host Process.
+2024-11-08 15:40:54.756 [info] [127.0.0.1][4036732d][ManagementConnection] New connection established.
+2024-11-08 15:43:39.552 [info] [127.0.0.1][08e3a755][ExtensionHostConnection] <1402> Extension Host Process exited with code: 0, signal: null.
+2024-11-08 15:43:41.051 [info] [127.0.0.1][4036732d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-11-08 15:43:43.688 [info] [127.0.0.1][219e1aec][ManagementConnection] New connection established.
+2024-11-08 15:43:50.902 [info] [127.0.0.1][9e3afe82][ExtensionHostConnection] New connection established.
+2024-11-08 15:43:50.914 [info] [127.0.0.1][9e3afe82][ExtensionHostConnection] <1469> Launched Extension Host Process.
+2024-11-08 15:45:52.601 [info] [127.0.0.1][859cedd6][ExtensionHostConnection] <823> Extension Host Process exited with code: 0, signal: null.
+2024-11-08 15:46:13.068 [info] Getting Manifest... ms-kubernetes-tools.vscode-kubernetes-tools
+2024-11-08 15:46:13.468 [info] Installing extension: ms-kubernetes-tools.vscode-kubernetes-tools
+2024-11-08 15:46:14.039 [info] Getting Manifest... redhat.vscode-yaml
+2024-11-08 15:46:14.585 [info] Installing extension: redhat.vscode-yaml
+2024-11-08 15:46:16.027 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js
+2024-11-08 15:46:16.027 [info] Extension signature verification is not done: redhat.vscode-yaml
+2024-11-08 15:46:16.055 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js
+2024-11-08 15:46:16.055 [info] Extension signature verification is not done: ms-kubernetes-tools.vscode-kubernetes-tools
+2024-11-08 15:46:16.279 [info] Extracted extension to file:///home/itsupport/.codeoss/extensions/redhat.vscode-yaml-1.15.0-universal: redhat.vscode-yaml
+2024-11-08 15:46:16.288 [info] Renamed to /home/itsupport/.codeoss/extensions/redhat.vscode-yaml-1.15.0-universal
+2024-11-08 15:46:16.292 [info] Extracting extension completed. redhat.vscode-yaml
+2024-11-08 15:46:16.408 [info] Extracted extension to file:///home/itsupport/.codeoss/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.16-universal: ms-kubernetes-tools.vscode-kubernetes-tools
+2024-11-08 15:46:16.415 [info] Renamed to /home/itsupport/.codeoss/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.16-universal
+2024-11-08 15:46:16.417 [info] Extracting extension completed. ms-kubernetes-tools.vscode-kubernetes-tools
+2024-11-08 15:46:16.423 [info] Extension installed successfully: redhat.vscode-yaml
+2024-11-08 15:46:16.424 [info] Extension installed successfully: ms-kubernetes-tools.vscode-kubernetes-tools
+2024-11-08 15:48:32.921 [info] [127.0.0.1][59bd5911][ManagementConnection] New connection established.
+2024-11-08 15:48:36.116 [info] [127.0.0.1][1d421b29][ExtensionHostConnection] New connection established.
+2024-11-08 15:48:36.139 [info] [127.0.0.1][1d421b29][ExtensionHostConnection] <1719> Launched Extension Host Process.
+2024-11-08 15:49:25.205 [info] [127.0.0.1][59bd5911][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-11-08 15:49:25.208 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/server/node/server.main.js:187:6057)
+    at process.emit (node:events:517:28)
+2024-11-08 15:49:59.629 [info] [127.0.0.1][994173a0][ExtensionHostConnection] New connection established.
+2024-11-08 15:49:59.631 [info] [127.0.0.1][7133348e][ManagementConnection] New connection established.
+2024-11-08 15:49:59.640 [info] [127.0.0.1][994173a0][ExtensionHostConnection] <1772> Launched Extension Host Process.
+2024-11-08 15:51:35.565 [info] [127.0.0.1][994173a0][ExtensionHostConnection] The client has reconnected.
+2024-11-08 15:51:36.127 [info] [127.0.0.1][7133348e][ManagementConnection] The client has reconnected.
+2024-11-08 15:51:50.380 [info] [127.0.0.1][7133348e][ManagementConnection] The client has reconnected.
+2024-11-08 15:51:51.021 [info] [127.0.0.1][994173a0][ExtensionHostConnection] The client has reconnected.
+2024-11-08 15:52:54.317 [info] [127.0.0.1][7133348e][ManagementConnection] The client has reconnected.
+2024-11-08 15:53:00.365 [info] [127.0.0.1][994173a0][ExtensionHostConnection] The client has reconnected.
+2024-11-08 15:53:10.573 [info] [127.0.0.1][994173a0][ExtensionHostConnection] The client has reconnected.
+2024-11-08 15:53:11.092 [info] [127.0.0.1][7133348e][ManagementConnection] The client has reconnected.
+2024-11-08 15:53:25.133 [info] [127.0.0.1][994173a0][ExtensionHostConnection] The client has reconnected.
+2024-11-08 15:53:33.273 [info] [127.0.0.1][9e3afe82][ExtensionHostConnection] <1469> Extension Host Process exited with code: 0, signal: null.
+2024-11-08 15:54:59.879 [info] [127.0.0.1][1d421b29][ExtensionHostConnection] <1719> Extension Host Process exited with code: 0, signal: null.
+2024-11-08 16:07:28.755 [info] [127.0.0.1][647c61ac][ManagementConnection] New connection established.
+2024-11-08 16:07:29.011 [info] [127.0.0.1][4e0eb3c0][ExtensionHostConnection] New connection established.
+2024-11-08 16:07:29.021 [info] [127.0.0.1][4e0eb3c0][ExtensionHostConnection] <2065> Launched Extension Host Process.
+2024-11-08 16:12:29.156 [info] [127.0.0.1][994173a0][ExtensionHostConnection] <1772> Extension Host Process exited with code: 0, signal: null.
+2024-11-08 16:16:44.679 [info] [127.0.0.1][647c61ac][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-11-08 16:16:44.808 [info] [127.0.0.1][4e0eb3c0][ExtensionHostConnection] <2065> Extension Host Process exited with code: 0, signal: null.
+2024-11-08 16:16:50.818 [info] [127.0.0.1][f464dc15][ManagementConnection] New connection established.
+2024-11-08 16:17:07.341 [info] [127.0.0.1][5044ca8f][ExtensionHostConnection] New connection established.
+2024-11-08 16:17:07.353 [info] [127.0.0.1][5044ca8f][ExtensionHostConnection] <7439> Launched Extension Host Process.
+2024-11-08 16:23:12.479 [info] [127.0.0.1][f464dc15][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-11-08 16:23:14.605 [info] [127.0.0.1][5044ca8f][ExtensionHostConnection] <7439> Extension Host Process exited with code: 0, signal: null.
+2024-11-08 16:23:19.356 [info] [127.0.0.1][9e0d06c1][ManagementConnection] New connection established.
+2024-11-08 16:23:19.417 [info] [127.0.0.1][d2773791][ExtensionHostConnection] New connection established.
+2024-11-08 16:23:19.426 [info] [127.0.0.1][d2773791][ExtensionHostConnection] <10329> Launched Extension Host Process.
+2024-11-08 17:07:50.202 [info] [127.0.0.1][d2773791][ExtensionHostConnection] The client has reconnected.
+2024-11-08 17:07:50.789 [info] [127.0.0.1][9e0d06c1][ManagementConnection] The client has reconnected.
+2024-11-08 17:08:06.345 [info] [127.0.0.1][d2773791][ExtensionHostConnection] The client has reconnected.
+2024-11-08 17:08:06.949 [info] [127.0.0.1][9e0d06c1][ManagementConnection] The client has reconnected.
+2024-11-08 17:33:55.196 [info] [127.0.0.1][2407deca][ManagementConnection] New connection established.
+2024-11-08 17:33:55.357 [info] [127.0.0.1][b3007748][ExtensionHostConnection] New connection established.
+2024-11-08 17:33:55.374 [info] [127.0.0.1][b3007748][ExtensionHostConnection] <33948> Launched Extension Host Process.

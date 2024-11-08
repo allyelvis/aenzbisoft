@@ -1,0 +1,56 @@
+2024-11-08 17:34:28.159 [info] Log level: Info
+2024-11-08 17:34:28.159 [info] Validating found git in: "git"
+2024-11-08 17:34:28.159 [info] Using git "2.43.0" from "git"
+2024-11-08 17:34:28.159 [info] > git rev-parse --show-toplevel [2325ms]
+2024-11-08 17:34:28.159 [info] > git rev-parse --git-dir --git-common-dir [384ms]
+2024-11-08 17:34:28.159 [info] Open repository: /home/itsupport/accountin
+2024-11-08 17:34:28.159 [info] > git rev-parse --show-toplevel [21ms]
+2024-11-08 17:34:28.159 [info] > git config --get commit.template [65ms]
+2024-11-08 17:34:28.702 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [160ms]
+2024-11-08 17:34:28.770 [info] > git rev-parse --git-dir --git-common-dir [494ms]
+2024-11-08 17:34:28.788 [info] Open repository: /home/itsupport/accountin/Accounting
+2024-11-08 17:34:29.027 [warning] ENOENT: no such file or directory, open '/home/itsupport/accountin/.git/refs/remotes/origin/main'
+2024-11-08 17:34:30.709 [info] > git check-ignore -v -z --stdin [223ms]
+2024-11-08 17:34:30.720 [info] > git check-ignore -v -z --stdin [80ms]
+2024-11-08 17:34:30.741 [info] > git rev-parse --show-toplevel [1553ms]
+2024-11-08 17:34:30.743 [info] > git config --get commit.template [1652ms]
+2024-11-08 17:34:30.743 [info] > git rev-parse refs/remotes/origin/main [1716ms]
+2024-11-08 17:34:33.550 [info] > git check-ignore -v -z --stdin [808ms]
+2024-11-08 17:34:33.554 [info] > git check-ignore -v -z --stdin [559ms]
+2024-11-08 17:34:33.570 [info] > git rev-parse --git-dir --git-common-dir [2108ms]
+2024-11-08 17:34:33.579 [info] Open repository: /home/itsupport/accountin/accountin
+2024-11-08 17:34:38.620 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5468ms]
+2024-11-08 17:34:39.275 [info] > git status -z -uall [8450ms]
+2024-11-08 17:34:39.276 [info] > git check-ignore -v -z --stdin [533ms]
+2024-11-08 17:34:39.289 [info] > git check-ignore -v -z --stdin [411ms]
+2024-11-08 17:34:39.290 [info] > git check-ignore -v -z --stdin [271ms]
+2024-11-08 17:34:39.291 [info] > git rev-parse --show-toplevel [3949ms]
+2024-11-08 17:34:39.296 [info] > git config --get commit.template [4242ms]
+2024-11-08 17:34:39.723 [info] > git merge-base refs/heads/main refs/remotes/origin/main [226ms]
+2024-11-08 17:34:40.416 [info] > git config --get commit.template [714ms]
+2024-11-08 17:34:40.416 [info] > git rev-parse --show-toplevel [788ms]
+2024-11-08 17:34:40.687 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [523ms]
+2024-11-08 17:34:40.695 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [877ms]
+2024-11-08 17:34:41.468 [warning] ENOENT: no such file or directory, open '/home/itsupport/accountin/accountin/.git/refs/remotes/origin/main'
+2024-11-08 17:34:42.019 [info] > git rev-parse refs/remotes/origin/main [552ms]
+2024-11-08 17:34:42.239 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1104ms]
+2024-11-08 17:34:42.795 [warning] ENOENT: no such file or directory, open '/home/itsupport/accountin/.git/refs/remotes/origin/main'
+2024-11-08 17:34:43.353 [info] > git status -z -uall [1116ms]
+2024-11-08 17:34:43.362 [info] > git rev-parse refs/remotes/origin/main [567ms]
+2024-11-08 17:34:44.736 [info] > git diff --name-status -z --diff-filter=ADMR 00df5e507b36ebdc090f529e4fb2ab85b6d1747d...refs/remotes/origin/main [3458ms]
+2024-11-08 17:34:46.746 [info] > git status -z -uall [6187ms]
+2024-11-08 17:34:46.893 [info] > git merge-base refs/heads/main refs/remotes/origin/main [2522ms]
+2024-11-08 17:34:47.221 [info] > git merge-base refs/heads/main refs/remotes/origin/main [122ms]
+2024-11-08 17:34:47.292 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [281ms]
+2024-11-08 17:34:47.383 [info] > git config --get commit.template [738ms]
+2024-11-08 17:34:47.437 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [146ms]
+2024-11-08 17:34:47.542 [info] > git config --get commit.template [358ms]
+2024-11-08 17:34:47.686 [info] > git diff --name-status -z --diff-filter=ADMR 3138f8c454cbc7ab793856d6f4e33d4e2b715df8...refs/remotes/origin/main [309ms]
+2024-11-08 17:34:47.854 [info] > git status -z -uall [4084ms]
+2024-11-08 17:34:47.856 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [189ms]
+2024-11-08 17:34:47.857 [info] > git diff --name-status -z --diff-filter=ADMR 3b97c76b1424d4b66ba9edf7b526a41343f0e894...refs/remotes/origin/main [315ms]
+2024-11-08 17:34:48.059 [warning] ENOENT: no such file or directory, open '/home/itsupport/accountin/accountin/.git/refs/remotes/origin/main'
+2024-11-08 17:34:48.092 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [249ms]
+2024-11-08 17:34:48.115 [info] > git rev-parse refs/remotes/origin/main [56ms]
+2024-11-08 17:34:48.526 [info] > git status -z -uall [308ms]
+2024-11-08 17:34:52.394 [info] > git status -z -uall [3972ms]

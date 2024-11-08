@@ -1,0 +1,48 @@
+2024-11-08 16:23:30.059 [info] Default formatter is set to null for workspace /home/itsupport/accountin
+2024-11-08 16:23:30.059 [info] Test server listening.
+2024-11-08 16:23:30.059 [info] > conda info --json
+2024-11-08 16:23:30.059 [info] > hatch env show --json
+2024-11-08 16:23:30.059 [info] cwd: .
+2024-11-08 16:23:30.059 [info] > pyenv which python
+2024-11-08 16:23:30.059 [info] cwd: .
+2024-11-08 16:23:30.095 [info] Found: /bin/python --> /usr/bin/python3.12
+2024-11-08 16:23:30.150 [info] Found: /bin/python2 --> /usr/local/bin/python2.7
+2024-11-08 16:23:30.159 [info] Found: /bin/python3 --> /bin/python3.12
+2024-11-08 16:23:30.182 [info] Found: /bin/python3.12 --> /bin/python3.12
+2024-11-08 16:23:30.671 [info] Found: /usr/bin/python --> /usr/bin/python3.12
+2024-11-08 16:23:31.232 [info] Found: /usr/bin/python2 --> /usr/local/bin/python2.7
+2024-11-08 16:23:31.240 [info] Found: /usr/bin/python3 --> /usr/bin/python3.12
+2024-11-08 16:23:31.240 [info] Found: /usr/bin/python3.12 --> /usr/bin/python3.12
+2024-11-08 16:23:31.265 [info] Found: /usr/local/bin/python2.7 --> /usr/local/bin/python2.7
+2024-11-08 16:23:31.322 [info] > /bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2024-11-08 16:23:31.354 [info] > /bin/python2 -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2024-11-08 16:23:31.396 [warning] [Error: Command failed: /bin/python2 -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+Unknown option: -I
+usage: /bin/python2 [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:529:35)
+	at maybeClose (node:internal/child_process:1098:16)
+	at Socket.<anonymous> (node:internal/child_process:450:11)
+	at Socket.emit (node:events:517:28)
+	at Pipe.<anonymous> (node:net:350:12)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/bin/python2 -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py'
+}
+2024-11-08 16:23:31.396 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2024-11-08 16:23:31.421 [info] > /bin/python2 /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2024-11-08 16:23:31.450 [info] > /bin/python3 -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2024-11-08 16:23:31.633 [info] Python interpreter path: /bin/python
+2024-11-08 16:23:42.557 [info] Starting Jedi language server for accountin.
+2024-11-08 16:24:20.988 [info] Discover tests for workspace name: undefined - uri: /User/settings.json
+2024-11-08 16:25:10.874 [info] Discover tests for workspace name: undefined - uri: /User/settings.json
+2024-11-08 16:30:02.385 [info] Discover tests for workspace name: accountin - uri: /home/itsupport/accountin/accountin/Accounting/.vscode/settings.json
+2024-11-08 16:30:56.028 [info] Discover tests for workspace name: accountin - uri: /home/itsupport/accountin/accountin/Accounting/accounting-app/adaptive-model/pyproject.toml
+2024-11-08 16:31:32.001 [info] Discover tests for workspace name: accountin - uri: /home/itsupport/accountin/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/pyproject.toml
+2024-11-08 16:33:26.546 [info] Discover tests for workspace name: accountin - uri: /home/itsupport/accountin/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/pyproject.toml
+2024-11-08 16:34:08.087 [info] Discover tests for workspace name: accountin - uri: /home/itsupport/accountin/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/pyproject.toml
+2024-11-08 16:34:16.275 [info] Discover tests for workspace name: accountin - uri: /home/itsupport/accountin/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/pyproject.toml
+2024-11-08 16:36:29.749 [info] Discover tests for workspace name: accountin - uri: /home/itsupport/accountin/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/aenzbi-business-suite/aenzbi-conservation-environmental-system/aenzbi-digital-baking/aenzbi-ecommerce/aenzbi-erp-ecommerce/aenzbi-extension/aenzbi-fintech/aenzbi-fintech-system/aenzbi-firebase/aenzbi-flask-ecom/aenzbi-global-pos/aenzbi-grocery/aenzbi-health-education-system/aenzbi-ide/aenzbi-inventory-system/aenzbi-invoice-extension/aenzbi-maven/pyproject.toml

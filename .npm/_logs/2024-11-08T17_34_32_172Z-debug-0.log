@@ -1,0 +1,19 @@
+0 verbose cli /usr/local/nvm/versions/node/v20.18.0/bin/node /usr/local/nvm/versions/node/v20.18.0/bin/npm
+1 info using npm@10.9.0
+2 info using node@v20.18.0
+3 silly config load:file:/usr/local/nvm/versions/node/v20.18.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/itsupport/accountin/.npmrc
+5 silly config load:file:/home/itsupport/.npmrc
+6 silly config load:file:/usr/local/nvm/versions/node/v20.18.0/etc/npmrc
+7 verbose title npm config get prefix
+8 verbose argv "config" "--loglevel" "warn" "get" "prefix"
+9 verbose logfile logs-max:10 dir:/home/itsupport/.npm/_logs/2024-11-08T17_34_32_172Z-
+10 verbose logfile /home/itsupport/.npm/_logs/2024-11-08T17_34_32_172Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 verbose cwd /home/itsupport/accountin
+14 verbose os Linux 6.1.112+
+15 verbose node v20.18.0
+16 verbose npm  v10.9.0
+17 verbose exit 0
+18 info ok

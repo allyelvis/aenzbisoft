@@ -1,0 +1,30 @@
+{
+  "last_reminder": 0,
+  "cached_at": 1731083445253,
+  "version": "5.21.1",
+  "cli_path": "/home/itsupport/accountin/accountin/Accounting/accounting-app/node_modules/prisma/build/index.js",
+  "output": {
+    "product": "prisma",
+    "previous_version": "5.21.1",
+    "checkpoint_version": 4,
+    "local_timestamp_without_timezone": "2024-11-08T16:30:44Z",
+    "current_version": "5.22.0",
+    "current_release_date": 1730820845,
+    "client_event_id": "874375a8-2d26-4c6c-bf18-cd50de2db480",
+    "current_download_url": "https://github.com/prisma/prisma",
+    "package": "prisma",
+    "release_tag": "latest",
+    "install_command": "npm install --save-dev prisma",
+    "schema_providers": [
+      "postgresql"
+    ],
+    "schema_preview_features": [],
+    "schema_generators_providers": [
+      "prisma-client-js"
+    ],
+    "current_changelog_url": "https://github.com/prisma/prisma",
+    "outdated": true,
+    "project_website": "https://prisma.io",
+    "alerts": []
+  }
+}

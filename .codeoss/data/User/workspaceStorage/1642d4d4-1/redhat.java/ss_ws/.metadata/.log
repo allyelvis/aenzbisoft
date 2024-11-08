@@ -1,0 +1,49 @@
+!SESSION 2024-11-08 17:35:13.713 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.12
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/tmp/lsp-ee1d4d4b3fe8985aae417ca63dd7b8c0.sock
+Command-line arguments:  -data /home/itsupport/.codeoss/data/User/workspaceStorage/1642d4d4-1/redhat.java/ss_ws --pipe=/tmp/lsp-ee1d4d4b3fe8985aae417ca63dd7b8c0.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-08 17:35:43.254
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-08 17:35:48.450
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-08 17:35:49.344
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-08 17:35:49.398
+!MESSAGE Initializing Java Language Server 1.37.0.202406190804
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-08 17:35:50.772
+!MESSAGE Setting /usr/lib/jvm/java-21-openjdk-amd64 as 'JavaSE-21' environment (id:1731087350624)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-08 17:35:50.875
+!MESSAGE Setting /usr/lib/jvm/java-11-openjdk-amd64 as 'JavaSE-11' environment (id:1731087350809)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-08 17:35:50.912
+!MESSAGE Setting /usr/lib/jvm/java-17-openjdk-amd64 as 'JavaSE-17' environment (id:1731087350273)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-08 17:35:50.937
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-08 17:35:51.515
+!MESSAGE Workspace initialized in 112ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-08 17:35:51.790
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-08 17:35:51.896
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-08 17:35:51.902
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-08 17:35:51.924
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-08 17:35:51.936
+!MESSAGE >> workspace/didChangeConfiguration

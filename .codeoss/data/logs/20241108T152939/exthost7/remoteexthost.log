@@ -1,0 +1,5 @@
+2024-11-08 16:18:12.319 [info] Extension host with pid 7439 started
+2024-11-08 16:18:12.356 [info] Lock '/home/itsupport/.codeoss/data/User/workspaceStorage/361e0151/vscode.lock': Lock acquired.
+2024-11-08 16:23:14.590 [info] Extension host terminating: received terminate message from renderer
+2024-11-08 16:23:14.592 [info] Lock '/home/itsupport/.codeoss/data/User/workspaceStorage/361e0151/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-11-08 16:23:14.594 [info] Extension host with pid 7439 exiting with code 0

@@ -1,0 +1,1447 @@
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-17-openjdk-amd64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/lombok/lombok-1.18.33.jar -jar /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/itsupport/.codeoss/data/User/globalStorage/redhat.java/1.32.2024061908/config_ss_linux -data /home/itsupport/.codeoss/data/User/workspaceStorage/1642d4d4/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2024-11-08 16:23:49.109'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.foreign, jdk.incubator.vector\n',
+  level: 'info',
+  timestamp: '2024-11-08 16:23:50.564'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-17-openjdk-amd64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/lombok/lombok-1.18.33.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/itsupport/.codeoss/data/User/workspaceStorage/1642d4d4/redhat.java -Daether.dependencyCollector.impl=bf -jar /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/itsupport/.codeoss/data/User/globalStorage/redhat.java/1.32.2024061908/config_linux -data /home/itsupport/.codeoss/data/User/workspaceStorage/1642d4d4/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2024-11-08 16:23:54.302'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.foreign, jdk.incubator.vector\n',
+  level: 'info',
+  timestamp: '2024-11-08 16:23:55.054'
+}
+{
+  message: 'Nov 08, 2024 4:24:02 PM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2024-11-08 16:24:02.869'
+}
+{
+  message: 'Nov 08, 2024 4:24:02 PM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2024-11-08 16:24:02.894'
+}
+{
+  message: '[Error - 4:24:32 PM] Nov 8, 2024, 4:24:32 PM Initialization failed \n' +
+    'Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    'java.nio.file.InvalidPathException: Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.encode(UnixPath.java:121)\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.<init>(UnixPath.java:68)\n' +
+    '\tat java.base/sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:279)\n' +
+    '\tat java.base/java.nio.file.Path.of(Path.java:147)\n' +
+    '\tat java.base/java.nio.file.Paths.get(Paths.java:69)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.nio.PosixHandler.fetchFileInfo(PosixHandler.java:41)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFileNativesManager.fetchFileInfo(LocalFileNativesManager.java:89)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFile.fetchInfo(LocalFile.java:182)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.fetchInfo(FileStore.java:259)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.childInfos(FileStore.java:98)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.getLocalList(UnifiedTree.java:360)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addChildren(UnifiedTree.java:148)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addNodeChildrenToQueue(UnifiedTree.java:254)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:120)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refreshResource(FileSystemResourceManager.java:1043)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refresh(FileSystemResourceManager.java:1026)\n' +
+    '\tat org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1601)\n' +
+    '\tat org.eclipse.core.internal.resources.Project.open(Project.java:1136)\n' +
+    '\tat org.eclipse.core.internal.resources.Project.open(Project.java:1192)\n' +
+    '\tat org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.create(ProjectConfigurationManager.java:844)\n' +
+    '\tat org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$1(ProjectConfigurationManager.java:152)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)\n' +
+    '\tat org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:138)\n' +
+    '\tat org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:129)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.MavenProjectImporter.importToWorkspace(MavenProjectImporter.java:242)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:164)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:126)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:277)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2024-11-08 16:24:32.418'
+}
+{ level: 'error', timestamp: '2024-11-08 16:24:32.659' }
+{
+  message: '[Error - 4:25:01 PM] Nov 8, 2024, 4:25:01 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    'Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    'java.nio.file.InvalidPathException: Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.encode(UnixPath.java:121)\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.<init>(UnixPath.java:68)\n' +
+    '\tat java.base/sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:279)\n' +
+    '\tat java.base/java.nio.file.Path.of(Path.java:147)\n' +
+    '\tat java.base/java.nio.file.Paths.get(Paths.java:69)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.nio.PosixHandler.fetchFileInfo(PosixHandler.java:41)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFileNativesManager.fetchFileInfo(LocalFileNativesManager.java:89)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFile.fetchInfo(LocalFile.java:182)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.fetchInfo(FileStore.java:259)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.childInfos(FileStore.java:98)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.getLocalList(UnifiedTree.java:360)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addChildren(UnifiedTree.java:148)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addNodeChildrenToQueue(UnifiedTree.java:254)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:120)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refreshResource(FileSystemResourceManager.java:1043)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refresh(FileSystemResourceManager.java:1026)\n' +
+    '\tat org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1601)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.refreshResources(MavenBuilderImpl.java:325)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.build(MavenBuilderImpl.java:196)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:164)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:1)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$1(MavenBuilder.java:109)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:100)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2024-11-08 16:25:01.918'
+}
+{
+  message: '[Error - 4:25:01 PM] Nov 8, 2024, 4:25:01 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2024-11-08 16:25:01.932'
+}
+{
+  message: '[Error - 4:53:33 PM] Nov 8, 2024, 4:53:33 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    'Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    'java.nio.file.InvalidPathException: Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.encode(UnixPath.java:121)\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.<init>(UnixPath.java:68)\n' +
+    '\tat java.base/sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:279)\n' +
+    '\tat java.base/java.nio.file.Path.of(Path.java:147)\n' +
+    '\tat java.base/java.nio.file.Paths.get(Paths.java:69)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.nio.PosixHandler.fetchFileInfo(PosixHandler.java:41)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFileNativesManager.fetchFileInfo(LocalFileNativesManager.java:89)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFile.fetchInfo(LocalFile.java:182)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.fetchInfo(FileStore.java:259)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.childInfos(FileStore.java:98)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.getLocalList(UnifiedTree.java:360)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addChildren(UnifiedTree.java:148)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addNodeChildrenToQueue(UnifiedTree.java:254)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:120)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refreshResource(FileSystemResourceManager.java:1043)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refresh(FileSystemResourceManager.java:1026)\n' +
+    '\tat org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1601)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.refreshResources(MavenBuilderImpl.java:325)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.build(MavenBuilderImpl.java:196)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:164)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:1)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$1(MavenBuilder.java:109)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:100)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2024-11-08 16:53:33.035'
+}
+{
+  message: '[Error - 4:53:33 PM] Nov 8, 2024, 4:53:33 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2024-11-08 16:53:33.059'
+}
+{
+  message: '[Error - 4:53:42 PM] Nov 8, 2024, 4:53:42 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    'Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    'java.nio.file.InvalidPathException: Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.encode(UnixPath.java:121)\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.<init>(UnixPath.java:68)\n' +
+    '\tat java.base/sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:279)\n' +
+    '\tat java.base/java.nio.file.Path.of(Path.java:147)\n' +
+    '\tat java.base/java.nio.file.Paths.get(Paths.java:69)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.nio.PosixHandler.fetchFileInfo(PosixHandler.java:41)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFileNativesManager.fetchFileInfo(LocalFileNativesManager.java:89)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFile.fetchInfo(LocalFile.java:182)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.fetchInfo(FileStore.java:259)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.childInfos(FileStore.java:98)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.getLocalList(UnifiedTree.java:360)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addChildren(UnifiedTree.java:148)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addNodeChildrenToQueue(UnifiedTree.java:254)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:120)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refreshResource(FileSystemResourceManager.java:1043)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refresh(FileSystemResourceManager.java:1026)\n' +
+    '\tat org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1601)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.refreshResources(MavenBuilderImpl.java:325)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.build(MavenBuilderImpl.java:196)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:164)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:1)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$1(MavenBuilder.java:109)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:100)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2024-11-08 16:53:42.864'
+}
+{
+  message: '[Error - 4:53:42 PM] Nov 8, 2024, 4:53:42 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2024-11-08 16:53:42.866'
+}
+{
+  message: '[Error - 4:53:46 PM] Nov 8, 2024, 4:53:46 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    'Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    'java.nio.file.InvalidPathException: Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.encode(UnixPath.java:121)\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.<init>(UnixPath.java:68)\n' +
+    '\tat java.base/sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:279)\n' +
+    '\tat java.base/java.nio.file.Path.of(Path.java:147)\n' +
+    '\tat java.base/java.nio.file.Paths.get(Paths.java:69)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.nio.PosixHandler.fetchFileInfo(PosixHandler.java:41)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFileNativesManager.fetchFileInfo(LocalFileNativesManager.java:89)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFile.fetchInfo(LocalFile.java:182)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.fetchInfo(FileStore.java:259)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.childInfos(FileStore.java:98)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.getLocalList(UnifiedTree.java:360)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addChildren(UnifiedTree.java:148)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addNodeChildrenToQueue(UnifiedTree.java:254)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:120)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refreshResource(FileSystemResourceManager.java:1043)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refresh(FileSystemResourceManager.java:1026)\n' +
+    '\tat org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1601)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.refreshResources(MavenBuilderImpl.java:325)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.build(MavenBuilderImpl.java:196)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:164)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:1)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$1(MavenBuilder.java:109)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:100)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2024-11-08 16:53:46.105'
+}
+{
+  message: '[Error - 4:53:46 PM] Nov 8, 2024, 4:53:46 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2024-11-08 16:53:46.117'
+}
+{
+  message: '[Error - 4:53:52 PM] Nov 8, 2024, 4:53:52 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    'Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    'java.nio.file.InvalidPathException: Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.encode(UnixPath.java:121)\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.<init>(UnixPath.java:68)\n' +
+    '\tat java.base/sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:279)\n' +
+    '\tat java.base/java.nio.file.Path.of(Path.java:147)\n' +
+    '\tat java.base/java.nio.file.Paths.get(Paths.java:69)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.nio.PosixHandler.fetchFileInfo(PosixHandler.java:41)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFileNativesManager.fetchFileInfo(LocalFileNativesManager.java:89)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFile.fetchInfo(LocalFile.java:182)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.fetchInfo(FileStore.java:259)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.childInfos(FileStore.java:98)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.getLocalList(UnifiedTree.java:360)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addChildren(UnifiedTree.java:148)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addNodeChildrenToQueue(UnifiedTree.java:254)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:120)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refreshResource(FileSystemResourceManager.java:1043)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refresh(FileSystemResourceManager.java:1026)\n' +
+    '\tat org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1601)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.refreshResources(MavenBuilderImpl.java:325)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.build(MavenBuilderImpl.java:196)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:164)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:1)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$1(MavenBuilder.java:109)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:100)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2024-11-08 16:53:52.040'
+}
+{
+  message: '[Error - 4:53:52 PM] Nov 8, 2024, 4:53:52 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2024-11-08 16:53:52.042'
+}
+{
+  message: '[Error - 4:53:58 PM] Nov 8, 2024, 4:53:58 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    'Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    'java.nio.file.InvalidPathException: Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.encode(UnixPath.java:121)\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.<init>(UnixPath.java:68)\n' +
+    '\tat java.base/sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:279)\n' +
+    '\tat java.base/java.nio.file.Path.of(Path.java:147)\n' +
+    '\tat java.base/java.nio.file.Paths.get(Paths.java:69)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.nio.PosixHandler.fetchFileInfo(PosixHandler.java:41)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFileNativesManager.fetchFileInfo(LocalFileNativesManager.java:89)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFile.fetchInfo(LocalFile.java:182)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.fetchInfo(FileStore.java:259)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.childInfos(FileStore.java:98)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.getLocalList(UnifiedTree.java:360)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addChildren(UnifiedTree.java:148)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addNodeChildrenToQueue(UnifiedTree.java:254)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:120)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refreshResource(FileSystemResourceManager.java:1043)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refresh(FileSystemResourceManager.java:1026)\n' +
+    '\tat org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1601)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.refreshResources(MavenBuilderImpl.java:325)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.build(MavenBuilderImpl.java:196)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:164)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:1)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$1(MavenBuilder.java:109)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:100)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2024-11-08 16:53:58.484'
+}
+{
+  message: '[Error - 4:53:58 PM] Nov 8, 2024, 4:53:58 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2024-11-08 16:53:58.493'
+}
+{
+  message: '[Error - 4:54:02 PM] Nov 8, 2024, 4:54:02 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    'Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    'java.nio.file.InvalidPathException: Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.encode(UnixPath.java:121)\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.<init>(UnixPath.java:68)\n' +
+    '\tat java.base/sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:279)\n' +
+    '\tat java.base/java.nio.file.Path.of(Path.java:147)\n' +
+    '\tat java.base/java.nio.file.Paths.get(Paths.java:69)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.nio.PosixHandler.fetchFileInfo(PosixHandler.java:41)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFileNativesManager.fetchFileInfo(LocalFileNativesManager.java:89)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFile.fetchInfo(LocalFile.java:182)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.fetchInfo(FileStore.java:259)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.childInfos(FileStore.java:98)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.getLocalList(UnifiedTree.java:360)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addChildren(UnifiedTree.java:148)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addNodeChildrenToQueue(UnifiedTree.java:254)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:120)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refreshResource(FileSystemResourceManager.java:1043)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refresh(FileSystemResourceManager.java:1026)\n' +
+    '\tat org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1601)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.refreshResources(MavenBuilderImpl.java:325)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.build(MavenBuilderImpl.java:196)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:164)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:1)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$1(MavenBuilder.java:109)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:100)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2024-11-08 16:54:02.848'
+}
+{
+  message: '[Error - 4:54:02 PM] Nov 8, 2024, 4:54:02 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2024-11-08 16:54:02.853'
+}
+{
+  message: '[Error - 4:54:07 PM] Nov 8, 2024, 4:54:07 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    'Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    'java.nio.file.InvalidPathException: Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.encode(UnixPath.java:121)\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.<init>(UnixPath.java:68)\n' +
+    '\tat java.base/sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:279)\n' +
+    '\tat java.base/java.nio.file.Path.of(Path.java:147)\n' +
+    '\tat java.base/java.nio.file.Paths.get(Paths.java:69)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.nio.PosixHandler.fetchFileInfo(PosixHandler.java:41)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFileNativesManager.fetchFileInfo(LocalFileNativesManager.java:89)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFile.fetchInfo(LocalFile.java:182)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.fetchInfo(FileStore.java:259)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.childInfos(FileStore.java:98)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.getLocalList(UnifiedTree.java:360)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addChildren(UnifiedTree.java:148)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addNodeChildrenToQueue(UnifiedTree.java:254)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:120)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refreshResource(FileSystemResourceManager.java:1043)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refresh(FileSystemResourceManager.java:1026)\n' +
+    '\tat org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1601)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.refreshResources(MavenBuilderImpl.java:325)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.build(MavenBuilderImpl.java:196)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:164)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:1)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$1(MavenBuilder.java:109)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:100)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2024-11-08 16:54:07.748'
+}
+{
+  message: '[Error - 4:54:07 PM] Nov 8, 2024, 4:54:07 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2024-11-08 16:54:07.766'
+}
+{
+  message: '[Error - 4:54:17 PM] Nov 8, 2024, 4:54:17 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    'Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    'java.nio.file.InvalidPathException: Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.encode(UnixPath.java:121)\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.<init>(UnixPath.java:68)\n' +
+    '\tat java.base/sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:279)\n' +
+    '\tat java.base/java.nio.file.Path.of(Path.java:147)\n' +
+    '\tat java.base/java.nio.file.Paths.get(Paths.java:69)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.nio.PosixHandler.fetchFileInfo(PosixHandler.java:41)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFileNativesManager.fetchFileInfo(LocalFileNativesManager.java:89)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFile.fetchInfo(LocalFile.java:182)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.fetchInfo(FileStore.java:259)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.childInfos(FileStore.java:98)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.getLocalList(UnifiedTree.java:360)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addChildren(UnifiedTree.java:148)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addNodeChildrenToQueue(UnifiedTree.java:254)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:120)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refreshResource(FileSystemResourceManager.java:1043)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refresh(FileSystemResourceManager.java:1026)\n' +
+    '\tat org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1601)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.refreshResources(MavenBuilderImpl.java:325)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.build(MavenBuilderImpl.java:196)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:164)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:1)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$1(MavenBuilder.java:109)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:100)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2024-11-08 16:54:17.560'
+}
+{
+  message: '[Error - 4:54:17 PM] Nov 8, 2024, 4:54:17 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2024-11-08 16:54:17.569'
+}
+{
+  message: '[Error - 4:54:27 PM] Nov 8, 2024, 4:54:27 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    'Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    'java.nio.file.InvalidPathException: Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.encode(UnixPath.java:121)\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.<init>(UnixPath.java:68)\n' +
+    '\tat java.base/sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:279)\n' +
+    '\tat java.base/java.nio.file.Path.of(Path.java:147)\n' +
+    '\tat java.base/java.nio.file.Paths.get(Paths.java:69)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.nio.PosixHandler.fetchFileInfo(PosixHandler.java:41)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFileNativesManager.fetchFileInfo(LocalFileNativesManager.java:89)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFile.fetchInfo(LocalFile.java:182)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.fetchInfo(FileStore.java:259)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.childInfos(FileStore.java:98)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.getLocalList(UnifiedTree.java:360)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addChildren(UnifiedTree.java:148)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addNodeChildrenToQueue(UnifiedTree.java:254)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:120)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refreshResource(FileSystemResourceManager.java:1043)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refresh(FileSystemResourceManager.java:1026)\n' +
+    '\tat org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1601)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.refreshResources(MavenBuilderImpl.java:325)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.build(MavenBuilderImpl.java:196)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:164)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:1)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$1(MavenBuilder.java:109)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:100)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2024-11-08 16:54:27.849'
+}
+{
+  message: '[Error - 4:54:27 PM] Nov 8, 2024, 4:54:27 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2024-11-08 16:54:27.855'
+}
+{
+  message: '[Error - 4:54:32 PM] Nov 8, 2024, 4:54:32 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    'Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    'java.nio.file.InvalidPathException: Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.encode(UnixPath.java:121)\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.<init>(UnixPath.java:68)\n' +
+    '\tat java.base/sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:279)\n' +
+    '\tat java.base/java.nio.file.Path.of(Path.java:147)\n' +
+    '\tat java.base/java.nio.file.Paths.get(Paths.java:69)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.nio.PosixHandler.fetchFileInfo(PosixHandler.java:41)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFileNativesManager.fetchFileInfo(LocalFileNativesManager.java:89)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFile.fetchInfo(LocalFile.java:182)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.fetchInfo(FileStore.java:259)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.childInfos(FileStore.java:98)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.getLocalList(UnifiedTree.java:360)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addChildren(UnifiedTree.java:148)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addNodeChildrenToQueue(UnifiedTree.java:254)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:120)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refreshResource(FileSystemResourceManager.java:1043)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refresh(FileSystemResourceManager.java:1026)\n' +
+    '\tat org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1601)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.refreshResources(MavenBuilderImpl.java:325)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.build(MavenBuilderImpl.java:196)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:164)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:1)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$1(MavenBuilder.java:109)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:100)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2024-11-08 16:54:32.938'
+}
+{
+  message: '[Error - 4:54:32 PM] Nov 8, 2024, 4:54:32 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2024-11-08 16:54:32.966'
+}
+{
+  message: '[Error - 4:54:49 PM] Nov 8, 2024, 4:54:49 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    'Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    'java.nio.file.InvalidPathException: Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.encode(UnixPath.java:121)\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.<init>(UnixPath.java:68)\n' +
+    '\tat java.base/sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:279)\n' +
+    '\tat java.base/java.nio.file.Path.of(Path.java:147)\n' +
+    '\tat java.base/java.nio.file.Paths.get(Paths.java:69)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.nio.PosixHandler.fetchFileInfo(PosixHandler.java:41)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFileNativesManager.fetchFileInfo(LocalFileNativesManager.java:89)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFile.fetchInfo(LocalFile.java:182)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.fetchInfo(FileStore.java:259)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.childInfos(FileStore.java:98)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.getLocalList(UnifiedTree.java:360)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addChildren(UnifiedTree.java:148)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addNodeChildrenToQueue(UnifiedTree.java:254)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:120)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refreshResource(FileSystemResourceManager.java:1043)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refresh(FileSystemResourceManager.java:1026)\n' +
+    '\tat org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1601)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.refreshResources(MavenBuilderImpl.java:325)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.build(MavenBuilderImpl.java:196)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:164)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:1)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$1(MavenBuilder.java:109)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:100)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2024-11-08 16:54:49.155'
+}
+{
+  message: '[Error - 4:54:49 PM] Nov 8, 2024, 4:54:49 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2024-11-08 16:54:49.156'
+}
+{
+  message: '[Error - 4:54:54 PM] Nov 8, 2024, 4:54:54 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    'Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    'java.nio.file.InvalidPathException: Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.encode(UnixPath.java:121)\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.<init>(UnixPath.java:68)\n' +
+    '\tat java.base/sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:279)\n' +
+    '\tat java.base/java.nio.file.Path.of(Path.java:147)\n' +
+    '\tat java.base/java.nio.file.Paths.get(Paths.java:69)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.nio.PosixHandler.fetchFileInfo(PosixHandler.java:41)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFileNativesManager.fetchFileInfo(LocalFileNativesManager.java:89)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFile.fetchInfo(LocalFile.java:182)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.fetchInfo(FileStore.java:259)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.childInfos(FileStore.java:98)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.getLocalList(UnifiedTree.java:360)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addChildren(UnifiedTree.java:148)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addNodeChildrenToQueue(UnifiedTree.java:254)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:120)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refreshResource(FileSystemResourceManager.java:1043)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refresh(FileSystemResourceManager.java:1026)\n' +
+    '\tat org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1601)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.refreshResources(MavenBuilderImpl.java:325)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.build(MavenBuilderImpl.java:196)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:164)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:1)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$1(MavenBuilder.java:109)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:100)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2024-11-08 16:54:54.272'
+}
+{
+  message: '[Error - 4:54:54 PM] Nov 8, 2024, 4:54:54 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2024-11-08 16:54:54.279'
+}
+{
+  message: '[Error - 4:54:59 PM] Nov 8, 2024, 4:54:59 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    'Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    'java.nio.file.InvalidPathException: Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.encode(UnixPath.java:121)\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.<init>(UnixPath.java:68)\n' +
+    '\tat java.base/sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:279)\n' +
+    '\tat java.base/java.nio.file.Path.of(Path.java:147)\n' +
+    '\tat java.base/java.nio.file.Paths.get(Paths.java:69)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.nio.PosixHandler.fetchFileInfo(PosixHandler.java:41)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFileNativesManager.fetchFileInfo(LocalFileNativesManager.java:89)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFile.fetchInfo(LocalFile.java:182)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.fetchInfo(FileStore.java:259)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.childInfos(FileStore.java:98)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.getLocalList(UnifiedTree.java:360)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addChildren(UnifiedTree.java:148)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addNodeChildrenToQueue(UnifiedTree.java:254)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:120)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refreshResource(FileSystemResourceManager.java:1043)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refresh(FileSystemResourceManager.java:1026)\n' +
+    '\tat org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1601)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.refreshResources(MavenBuilderImpl.java:325)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.build(MavenBuilderImpl.java:196)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:164)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:1)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$1(MavenBuilder.java:109)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:100)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2024-11-08 16:54:59.269'
+}
+{
+  message: '[Error - 4:54:59 PM] Nov 8, 2024, 4:54:59 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2024-11-08 16:54:59.296'
+}
+{
+  message: '[Error - 4:55:04 PM] Nov 8, 2024, 4:55:04 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    'Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    'java.nio.file.InvalidPathException: Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.encode(UnixPath.java:121)\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.<init>(UnixPath.java:68)\n' +
+    '\tat java.base/sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:279)\n' +
+    '\tat java.base/java.nio.file.Path.of(Path.java:147)\n' +
+    '\tat java.base/java.nio.file.Paths.get(Paths.java:69)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.nio.PosixHandler.fetchFileInfo(PosixHandler.java:41)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFileNativesManager.fetchFileInfo(LocalFileNativesManager.java:89)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFile.fetchInfo(LocalFile.java:182)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.fetchInfo(FileStore.java:259)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.childInfos(FileStore.java:98)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.getLocalList(UnifiedTree.java:360)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addChildren(UnifiedTree.java:148)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addNodeChildrenToQueue(UnifiedTree.java:254)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:120)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refreshResource(FileSystemResourceManager.java:1043)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refresh(FileSystemResourceManager.java:1026)\n' +
+    '\tat org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1601)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.refreshResources(MavenBuilderImpl.java:325)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.build(MavenBuilderImpl.java:196)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:164)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:1)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$1(MavenBuilder.java:109)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:100)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2024-11-08 16:55:04.981'
+}
+{
+  message: '[Error - 4:55:04 PM] Nov 8, 2024, 4:55:04 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2024-11-08 16:55:04.984'
+}
+{
+  message: '[Error - 4:55:21 PM] Nov 8, 2024, 4:55:21 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    'Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    'java.nio.file.InvalidPathException: Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.encode(UnixPath.java:121)\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.<init>(UnixPath.java:68)\n' +
+    '\tat java.base/sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:279)\n' +
+    '\tat java.base/java.nio.file.Path.of(Path.java:147)\n' +
+    '\tat java.base/java.nio.file.Paths.get(Paths.java:69)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.nio.PosixHandler.fetchFileInfo(PosixHandler.java:41)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFileNativesManager.fetchFileInfo(LocalFileNativesManager.java:89)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFile.fetchInfo(LocalFile.java:182)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.fetchInfo(FileStore.java:259)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.childInfos(FileStore.java:98)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.getLocalList(UnifiedTree.java:360)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addChildren(UnifiedTree.java:148)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addNodeChildrenToQueue(UnifiedTree.java:254)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:120)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refreshResource(FileSystemResourceManager.java:1043)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refresh(FileSystemResourceManager.java:1026)\n' +
+    '\tat org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1601)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.refreshResources(MavenBuilderImpl.java:325)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.build(MavenBuilderImpl.java:196)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:164)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:1)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$1(MavenBuilder.java:109)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:100)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2024-11-08 16:55:21.672'
+}
+{
+  message: '[Error - 4:55:21 PM] Nov 8, 2024, 4:55:21 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2024-11-08 16:55:21.675'
+}
+{
+  message: '[Error - 4:55:25 PM] Nov 8, 2024, 4:55:25 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    'Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    'java.nio.file.InvalidPathException: Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.encode(UnixPath.java:121)\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.<init>(UnixPath.java:68)\n' +
+    '\tat java.base/sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:279)\n' +
+    '\tat java.base/java.nio.file.Path.of(Path.java:147)\n' +
+    '\tat java.base/java.nio.file.Paths.get(Paths.java:69)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.nio.PosixHandler.fetchFileInfo(PosixHandler.java:41)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFileNativesManager.fetchFileInfo(LocalFileNativesManager.java:89)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFile.fetchInfo(LocalFile.java:182)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.fetchInfo(FileStore.java:259)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.childInfos(FileStore.java:98)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.getLocalList(UnifiedTree.java:360)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addChildren(UnifiedTree.java:148)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addNodeChildrenToQueue(UnifiedTree.java:254)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:120)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refreshResource(FileSystemResourceManager.java:1043)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refresh(FileSystemResourceManager.java:1026)\n' +
+    '\tat org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1601)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.refreshResources(MavenBuilderImpl.java:325)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.build(MavenBuilderImpl.java:196)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:164)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:1)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$1(MavenBuilder.java:109)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:100)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2024-11-08 16:55:25.982'
+}
+{
+  message: '[Error - 4:55:25 PM] Nov 8, 2024, 4:55:25 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2024-11-08 16:55:25.984'
+}
+{
+  message: '[Error - 4:55:30 PM] Nov 8, 2024, 4:55:30 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    'Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    'java.nio.file.InvalidPathException: Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.encode(UnixPath.java:121)\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.<init>(UnixPath.java:68)\n' +
+    '\tat java.base/sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:279)\n' +
+    '\tat java.base/java.nio.file.Path.of(Path.java:147)\n' +
+    '\tat java.base/java.nio.file.Paths.get(Paths.java:69)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.nio.PosixHandler.fetchFileInfo(PosixHandler.java:41)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFileNativesManager.fetchFileInfo(LocalFileNativesManager.java:89)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFile.fetchInfo(LocalFile.java:182)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.fetchInfo(FileStore.java:259)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.childInfos(FileStore.java:98)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.getLocalList(UnifiedTree.java:360)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addChildren(UnifiedTree.java:148)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addNodeChildrenToQueue(UnifiedTree.java:254)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:120)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refreshResource(FileSystemResourceManager.java:1043)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refresh(FileSystemResourceManager.java:1026)\n' +
+    '\tat org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1601)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.refreshResources(MavenBuilderImpl.java:325)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.build(MavenBuilderImpl.java:196)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:164)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:1)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$1(MavenBuilder.java:109)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:100)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2024-11-08 16:55:30.373'
+}
+{
+  message: '[Error - 4:55:30 PM] Nov 8, 2024, 4:55:30 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2024-11-08 16:55:30.376'
+}
+{
+  message: '[Error - 4:55:34 PM] Nov 8, 2024, 4:55:34 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    'Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    'java.nio.file.InvalidPathException: Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.encode(UnixPath.java:121)\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.<init>(UnixPath.java:68)\n' +
+    '\tat java.base/sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:279)\n' +
+    '\tat java.base/java.nio.file.Path.of(Path.java:147)\n' +
+    '\tat java.base/java.nio.file.Paths.get(Paths.java:69)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.nio.PosixHandler.fetchFileInfo(PosixHandler.java:41)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFileNativesManager.fetchFileInfo(LocalFileNativesManager.java:89)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFile.fetchInfo(LocalFile.java:182)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.fetchInfo(FileStore.java:259)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.childInfos(FileStore.java:98)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.getLocalList(UnifiedTree.java:360)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addChildren(UnifiedTree.java:148)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addNodeChildrenToQueue(UnifiedTree.java:254)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:120)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refreshResource(FileSystemResourceManager.java:1043)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refresh(FileSystemResourceManager.java:1026)\n' +
+    '\tat org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1601)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.refreshResources(MavenBuilderImpl.java:325)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.build(MavenBuilderImpl.java:196)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:164)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:1)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$1(MavenBuilder.java:109)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:100)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2024-11-08 16:55:34.953'
+}
+{
+  message: '[Error - 4:55:34 PM] Nov 8, 2024, 4:55:34 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2024-11-08 16:55:34.956'
+}
+{
+  message: '[Error - 4:56:21 PM] Nov 8, 2024, 4:56:21 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    'Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    'java.nio.file.InvalidPathException: Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.encode(UnixPath.java:121)\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.<init>(UnixPath.java:68)\n' +
+    '\tat java.base/sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:279)\n' +
+    '\tat java.base/java.nio.file.Path.of(Path.java:147)\n' +
+    '\tat java.base/java.nio.file.Paths.get(Paths.java:69)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.nio.PosixHandler.fetchFileInfo(PosixHandler.java:41)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFileNativesManager.fetchFileInfo(LocalFileNativesManager.java:89)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFile.fetchInfo(LocalFile.java:182)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.fetchInfo(FileStore.java:259)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.childInfos(FileStore.java:98)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.getLocalList(UnifiedTree.java:360)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addChildren(UnifiedTree.java:148)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addNodeChildrenToQueue(UnifiedTree.java:254)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:120)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refreshResource(FileSystemResourceManager.java:1043)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refresh(FileSystemResourceManager.java:1026)\n' +
+    '\tat org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1601)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.refreshResources(MavenBuilderImpl.java:325)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.build(MavenBuilderImpl.java:196)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:164)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:1)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$1(MavenBuilder.java:109)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:100)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2024-11-08 16:56:21.287'
+}
+{
+  message: '[Error - 4:56:21 PM] Nov 8, 2024, 4:56:21 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2024-11-08 16:56:21.295'
+}
+{
+  message: '[Error - 4:56:26 PM] Nov 8, 2024, 4:56:26 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    'Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    'java.nio.file.InvalidPathException: Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.encode(UnixPath.java:121)\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.<init>(UnixPath.java:68)\n' +
+    '\tat java.base/sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:279)\n' +
+    '\tat java.base/java.nio.file.Path.of(Path.java:147)\n' +
+    '\tat java.base/java.nio.file.Paths.get(Paths.java:69)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.nio.PosixHandler.fetchFileInfo(PosixHandler.java:41)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFileNativesManager.fetchFileInfo(LocalFileNativesManager.java:89)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFile.fetchInfo(LocalFile.java:182)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.fetchInfo(FileStore.java:259)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.childInfos(FileStore.java:98)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.getLocalList(UnifiedTree.java:360)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addChildren(UnifiedTree.java:148)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addNodeChildrenToQueue(UnifiedTree.java:254)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:120)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refreshResource(FileSystemResourceManager.java:1043)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refresh(FileSystemResourceManager.java:1026)\n' +
+    '\tat org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1601)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.refreshResources(MavenBuilderImpl.java:325)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.build(MavenBuilderImpl.java:196)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:164)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:1)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$1(MavenBuilder.java:109)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:100)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2024-11-08 16:56:26.091'
+}
+{
+  message: '[Error - 4:56:26 PM] Nov 8, 2024, 4:56:26 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2024-11-08 16:56:26.097'
+}
+{
+  message: '[Error - 4:56:30 PM] Nov 8, 2024, 4:56:30 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    'Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    'java.nio.file.InvalidPathException: Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.encode(UnixPath.java:121)\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.<init>(UnixPath.java:68)\n' +
+    '\tat java.base/sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:279)\n' +
+    '\tat java.base/java.nio.file.Path.of(Path.java:147)\n' +
+    '\tat java.base/java.nio.file.Paths.get(Paths.java:69)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.nio.PosixHandler.fetchFileInfo(PosixHandler.java:41)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFileNativesManager.fetchFileInfo(LocalFileNativesManager.java:89)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFile.fetchInfo(LocalFile.java:182)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.fetchInfo(FileStore.java:259)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.childInfos(FileStore.java:98)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.getLocalList(UnifiedTree.java:360)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addChildren(UnifiedTree.java:148)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addNodeChildrenToQueue(UnifiedTree.java:254)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:120)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refreshResource(FileSystemResourceManager.java:1043)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refresh(FileSystemResourceManager.java:1026)\n' +
+    '\tat org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1601)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.refreshResources(MavenBuilderImpl.java:325)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.build(MavenBuilderImpl.java:196)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:164)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:1)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$1(MavenBuilder.java:109)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:100)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2024-11-08 16:56:30.471'
+}
+{
+  message: '[Error - 4:56:30 PM] Nov 8, 2024, 4:56:30 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2024-11-08 16:56:30.473'
+}
+{
+  message: '[Error - 4:56:35 PM] Nov 8, 2024, 4:56:35 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    'Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    'java.nio.file.InvalidPathException: Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.encode(UnixPath.java:121)\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.<init>(UnixPath.java:68)\n' +
+    '\tat java.base/sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:279)\n' +
+    '\tat java.base/java.nio.file.Path.of(Path.java:147)\n' +
+    '\tat java.base/java.nio.file.Paths.get(Paths.java:69)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.nio.PosixHandler.fetchFileInfo(PosixHandler.java:41)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFileNativesManager.fetchFileInfo(LocalFileNativesManager.java:89)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFile.fetchInfo(LocalFile.java:182)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.fetchInfo(FileStore.java:259)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.childInfos(FileStore.java:98)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.getLocalList(UnifiedTree.java:360)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addChildren(UnifiedTree.java:148)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addNodeChildrenToQueue(UnifiedTree.java:254)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:120)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refreshResource(FileSystemResourceManager.java:1043)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refresh(FileSystemResourceManager.java:1026)\n' +
+    '\tat org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1601)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.refreshResources(MavenBuilderImpl.java:325)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.build(MavenBuilderImpl.java:196)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:164)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:1)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$1(MavenBuilder.java:109)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:100)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2024-11-08 16:56:35.003'
+}
+{
+  message: '[Error - 4:56:35 PM] Nov 8, 2024, 4:56:35 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2024-11-08 16:56:35.006'
+}
+{
+  message: '[Error - 4:59:56 PM] Nov 8, 2024, 4:59:56 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    'Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    'java.nio.file.InvalidPathException: Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.encode(UnixPath.java:121)\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.<init>(UnixPath.java:68)\n' +
+    '\tat java.base/sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:279)\n' +
+    '\tat java.base/java.nio.file.Path.of(Path.java:147)\n' +
+    '\tat java.base/java.nio.file.Paths.get(Paths.java:69)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.nio.PosixHandler.fetchFileInfo(PosixHandler.java:41)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFileNativesManager.fetchFileInfo(LocalFileNativesManager.java:89)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFile.fetchInfo(LocalFile.java:182)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.fetchInfo(FileStore.java:259)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.childInfos(FileStore.java:98)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.getLocalList(UnifiedTree.java:360)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addChildren(UnifiedTree.java:148)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addNodeChildrenToQueue(UnifiedTree.java:254)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:120)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refreshResource(FileSystemResourceManager.java:1043)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refresh(FileSystemResourceManager.java:1026)\n' +
+    '\tat org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1601)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.refreshResources(MavenBuilderImpl.java:325)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.build(MavenBuilderImpl.java:196)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:164)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:1)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$1(MavenBuilder.java:109)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:100)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2024-11-08 16:59:56.404'
+}
+{
+  message: '[Error - 4:59:56 PM] Nov 8, 2024, 4:59:56 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2024-11-08 16:59:56.412'
+}
+{
+  message: '[Error - 5:02:18 PM] Nov 8, 2024, 5:02:18 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    'Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    'java.nio.file.InvalidPathException: Malformed input or input contains unmappable characters: /home/itsupport/accountin/Accounting/accounting-app/adaptive-model/adpos/Advanced_POS_System/ae/ae-pos/ae-soft/aebc-backend/aebot/aebus/aebusiness/aekgh/aeNext.js/aeNextjs/aenpo/aenz/aenz-java/aenzbi/aenzbi-agritech-system/aenzbi-ai-app/aenzbi-api/aenzbi-app/aenzbi-app-flutter/aenzbi-artist/aenzbi-aspnetcore-app/aenzbi-backend/aenzbi-backend-cp/aenzbi-backend2/aenzbi-bank-soft/aenzbi-bigcommerce/.github/ISSUE_TEMPLATE/��������-bug-report.md\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.encode(UnixPath.java:121)\n' +
+    '\tat java.base/sun.nio.fs.UnixPath.<init>(UnixPath.java:68)\n' +
+    '\tat java.base/sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:279)\n' +
+    '\tat java.base/java.nio.file.Path.of(Path.java:147)\n' +
+    '\tat java.base/java.nio.file.Paths.get(Paths.java:69)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.nio.PosixHandler.fetchFileInfo(PosixHandler.java:41)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFileNativesManager.fetchFileInfo(LocalFileNativesManager.java:89)\n' +
+    '\tat org.eclipse.core.internal.filesystem.local.LocalFile.fetchInfo(LocalFile.java:182)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.fetchInfo(FileStore.java:259)\n' +
+    '\tat org.eclipse.core.filesystem.provider.FileStore.childInfos(FileStore.java:98)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.getLocalList(UnifiedTree.java:360)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addChildren(UnifiedTree.java:148)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.addNodeChildrenToQueue(UnifiedTree.java:254)\n' +
+    '\tat org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:120)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refreshResource(FileSystemResourceManager.java:1043)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.refresh(FileSystemResourceManager.java:1026)\n' +
+    '\tat org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1601)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.refreshResources(MavenBuilderImpl.java:325)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.build(MavenBuilderImpl.java:196)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:164)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:1)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$1(MavenBuilder.java:109)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:100)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)\n' +
+    '\tat org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2024-11-08 17:02:18.319'
+}
+{
+  message: '[Error - 5:02:18 PM] Nov 8, 2024, 5:02:18 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2024-11-08 17:02:18.329'
+}
